@@ -62,7 +62,6 @@ class DelimitersTest {
         assertEquals("</sup>", delimiterList.get(5));
 
         assertTrue(delimiters.isBalanced(delimiterList));
-
     }
 
     @Test
